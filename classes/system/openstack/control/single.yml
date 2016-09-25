@@ -8,6 +8,7 @@ classes:
 - system.keystone.server.service.nova
 - system.keystone.server.service.neutron
 - system.keystone.server.service.cinder
+- system.keystone.server.service.heat
 - system.glance.control.single
 - system.nova.control.single
 - system.neutron.control.single
