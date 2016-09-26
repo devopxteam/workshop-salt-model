@@ -8,7 +8,7 @@ parameters:
       virtualization: kvm
       vncproxy_url: http://${_param:control_address}:6080
       bind:
-        vnc_address: ${_param:control_address}
+        vnc_address: ${_param:single_address}
         vnc_port: 6080
         vnc_name: 0.0.0.0
       database:
